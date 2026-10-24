@@ -15,7 +15,7 @@ services:
       - key: GEMMA_MODEL_SUPPORTS_VISION
         value: "false"
       - key: FRONTEND_ORIGINS
-        value: https://repoready-ai-web.onrender.com
+        value: '["https://repoready-ai-web.onrender.com"]'
       - key: GITHUB_TOKEN
         sync: false
 
